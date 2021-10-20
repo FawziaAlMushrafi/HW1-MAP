@@ -2,8 +2,7 @@ fun main() {
 //create a map with 4 elements
     val TasksMap = mutableMapOf(
         "inst1" to "University", "inst2" to "Resturant",
-        "inst3 " to "Cofee", "inst4" to "Home"
-    )
+        "inst3 " to "Cofee", "inst4" to "Home")
     //Add one element
     TasksMap.put("inst5", "Cinema")
     println(TasksMap)
@@ -14,5 +13,5 @@ fun main() {
     TasksMap.remove("inst2")
     println(TasksMap)
 
-    
+
 }
